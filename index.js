@@ -1,2 +1,12 @@
-function addingEventListener() {
+function addingEventListener(){
 }
+function addingEventListener() {alert('I was clicked!'); 
+ input.addEventListener('input', addingEventListener)
+}
+
+
+document .getElementById("button").addEventListener('click',function(){
+   alert('I was clicked!');
+
+
+});
